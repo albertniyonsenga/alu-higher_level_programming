@@ -4,7 +4,7 @@ import sys
 if __name__ == "__main__":
     arg = sys.argv[1:]
     arg_len = len(arg)
-    for argu in arg_len:
+    for argu in range(0, len(arg_len):
         if argu == 0:
             print("0 arguments.")
         elif argu > 1:
