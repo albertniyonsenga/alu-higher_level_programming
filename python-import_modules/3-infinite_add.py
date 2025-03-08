@@ -2,7 +2,7 @@
 import sys
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
-    for arg in args:
+    
+    for arg in sys.argv[1:]:
         tot = sum(int(arg))
-        print(f"{tot}")
+        print(tot)
