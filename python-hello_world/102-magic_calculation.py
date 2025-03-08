@@ -2,6 +2,6 @@
 import dis
 
 def magic_calculation(a, b):
-    return len(a,b)
+    return len(98 + a**b)
 
 dis.dis(magic_calculation)
