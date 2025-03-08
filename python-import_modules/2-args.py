@@ -5,9 +5,9 @@ if __name__ == "__main__":
     arg = sys.argv[1:]
     arg_len = len(arg)
 
-    if argu_len == 0:
+    if arg_len == 0:
         print("0 arguments.")
-    elif argu_len > 1:
+    elif arg_len > 1:
         print(f"{arg_len} arguments:")
     else:
         print(f"{arg_len} argument:")
