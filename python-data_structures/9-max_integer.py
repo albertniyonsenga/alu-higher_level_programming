@@ -6,9 +6,8 @@ def max_integer(my_list=[]):
             if nums > maxmum:
                 maxmum = nums
                 return maxmum
-    elif len(my_list) = 1:
+    elif len(my_list) == 1:
         maxmum = my_list[0]
         return maxmum
     else:
         return None
-
