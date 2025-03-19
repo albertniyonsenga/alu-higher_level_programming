@@ -1,4 +1,4 @@
-!#!usr/bin/python3
+#!/usr/bin/python3
 def sqauare_matrix_simple(matrix=[]):
     if not matrix:
         for row in matrix:
