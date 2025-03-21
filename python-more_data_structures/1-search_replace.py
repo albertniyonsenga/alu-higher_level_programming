@@ -5,3 +5,4 @@ def search_replace(my_list, search, replace):
             return ele
         else:
             return replace
+    return my_list
