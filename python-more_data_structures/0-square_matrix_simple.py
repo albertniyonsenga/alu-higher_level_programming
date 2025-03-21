@@ -1,8 +1,4 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     if not matrix:
-        print()
-        for row in matrix:
-            for element in row:
-                return [element * element]
-    return matrix
+    return [[element * element for element in indice] for indice in matrix]
